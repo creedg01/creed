@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-image: url(golden_page.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+.logo{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-left: 60px;
+    font-size: 14px;
+    padding: 4px 160px;
+}
+.menu ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease; 
+}
+
+.menu ul li a:hover{
+    background-color: white;
+    color: goldenrod;
+}
+.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20%;
+}
+.title h1{
+    color: white;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+}
+.title h2{
+    color: white;
+    letter-spacing: 00.2rem;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.button{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding-top: 20%;
+}
+.button a{
+    color: white;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 20px
+}
+.button a:hover{
+    background-color:  goldenrod;
+    color: black;
+}
+section{
+    background-color: white;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;   
+}
+.svr span{
+    float: none;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-top: 60px;
+    font-size: 25px;   
+}
+.svr span h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+    text-align: center;
+}
+.svr span h1 p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+.service,
+.person {
+  margin-top: 40px;
+  display: inline-block;
+  width: 300px;
+} 
+.service .circle{
+    width: 68px;
+    height: 68px;
+    font-size: 35px;
+    border-radius: 50%;
+    border: 4px solid #fed136;
+    margin-top:  20px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    float: none;
+}
+.service .circle i {
+    position: relative;
+    color: #fed136;
+    font-size: 32px;
+    text-align: center;
+    align-items: center;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%; }
+.service .h4 {
+    text-align: center;
+}
+.service .p {
+    text-align: center;
+}
+article{
+    background-color: rgb(228, 228, 228);
+    height: 230vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;   
+}
+
+.titre h2{
+    float: none;
+    list-style-type: none;
+    padding: 200px 40px;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-top: 60px;
+    font-size: 45px;
+    text-align: center;  
+}
+.titre h2 p2{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+*{
+    box-sizing: border-box;
+    align-items: center;
+}
+.column{
+    background: none;
+    width: 30%;
+    top: 10px;
+    float: left;
+    text-align: center; font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px 50px
+}
+.about span{
+    float: none;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-top: 60px;
+    font-size: 25px;   
+}
+.about span h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+    text-align: center;
+}
+.about span h1 p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+.saison {
+    width: 100%;
+    position: relative;
+    margin-top: 80px; 
+}
+.saison:before {
+    content: "";
+    width: 3px;
+    background: #f1f1f1;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    position: absolute; 
+}
+.saison ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.date {
+    min-height: 175px;
+    margin-bottom: 100px; 
+}
+.date .circle {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    left: calc(50% - 86px);
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 6px solid #f1f1f1;
+    transition: transform .4s ease;
+    z-index: 2; 
+}
+.date .texte {
+    position: absolute;
+    padding-left: 125px;
+    padding-right: 125px;
+    width: 50%;
+    box-sizing: border-box;
+    left: 50%;
+    text-align: left; 
+}
+.date .texte p {
+    padding: 0; 
+}
+.date:nth-of-type(odd) .texte {
+    left: 0;
+    text-align: right; 
+}
+.date .cercle{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    left: calc(50% - 86px);
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 6px solid #f1f1f1;
+    transition: transform .4s ease;
+    z-index: 2;
+    text-align: center;
+}
+.date .cercle {
+    margin-bottom: 0; 
+}
+.date .cercle {
+      background-color: #fed136;
+}
+.date .cercle p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+     width: 107px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 0;
+    font-weight: 700; 
+}
+#team{
+    background-color: rgb(223, 223, 223);
+    height: 160vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;   
+}
+#team .amazing h1{
+    float: none;
+    list-style-type: none;
+    padding: 200px 40px;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-top: 60px;
+    font-size: 45px;
+    text-align: center;  
+}
+#team .amazing h1 p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+.col-sm-2 {
+    min-height: 175px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center; 
+}
+.col-sm-2 .ronde {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 6px solid #f1f1f1;
+    transition: transform .4s ease;
+    z-index: ""; 
+    text-align: center;
+}   
+#team .person h5{
+    list-style-type:none;
+    display: inline-block;    
+    padding: 10px ;
+    font-size: 25px;
+}
+#team .person h5 h6{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+#team .description p{
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 20px;
+    opacity: 50%;
+    text-align: center;  
+}
+#contact .back{
+    background-image: url(carte-du-monde.PNG);
+    height: 160vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 90px;   
+}
+#contact .back h1{
+    float: none;
+    list-style-type: none;
+    padding: 100px 20px;
+    color: #f1f1f1;
+    font-size: 45px;
+    text-align: center;  
+}
+#contact .back h1 p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 50%;
+}
+.boîte {
+    float: none;
+    text-align: center;
+    font-size: 30px;  
+}
+.boîte .field{
+    height: 8vh;
+    width: 450px;
+}
+.boîte .right{
+    padding: 50px;
+    height: 45vh;
+    width: 500px;
+}
+.boîte .btn{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: lighter;
+    background: rgb(245, 215, 46);
+    outline: none;
+    border: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgb(179, 128, 1);
+}
+.boîte .btn :hover{
+    background-color: white;
+}
